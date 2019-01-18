@@ -50,11 +50,12 @@ html {
 
 .textbox2 {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
     width: 87.5%;
     border: 1px solid #d3d3d3;
     box-shadow: 0px 15px 8px -15px #111;
-    height: 100px;
 
 }
 
@@ -63,6 +64,14 @@ html {
     margin-top: -12.5px;
     background-color: white;
     width: 180px;
+    text-align: center;
+}
+
+.textonborder2 {
+    margin: auto;
+    margin-top: -12.5px;
+    background-color: white;
+    width: 220px;
     text-align: center;
 }
 
@@ -118,10 +127,26 @@ h4#menu {
     border-bottom: 0;
 }
 
-a {
+.readmorelink {
     font-size: 12.5px;
     color: white;
     text-decoration: none;
+}
+
+.lentelink {
+    font-size: 15px;
+    color: #A9A9A9;
+    padding: 20px;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.text2 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #D3D3D3;
 }
 
 ul {
@@ -139,8 +164,6 @@ h1 {
 h3 {
     font-weight: 700;
 }
-
-
 
 p {
     display: block;
@@ -166,12 +189,6 @@ p {
     line-height: 25px;
 }
 
-.tekst2 {
-    color: #A9A9A9;
-    font-size: 17.5px;
-
-
-}
 .readmore {
     border: 1px solid limegreen;
     color: white;
